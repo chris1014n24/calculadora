@@ -1,0 +1,55 @@
+div
+{
+    background-color: rgb(236, 236, 163);
+}
+.contenedor
+ {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(236, 236, 163);
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: hidden;
+  }
+ 
+  .entrada
+  {
+    border-width: 5px;
+    height: 150px;
+    font-size: 50px ;
+    max-width: 100px;
+    background-color: rgb(236, 236, 163);
+}
+.salida
+{
+    border-width: 5px;
+    min-height: 150px;
+    min-width: 300px;
+    font-size: 100px ;
+    border-style: solid;
+    background-color: rgb(236, 236, 163);
+}
+.boton
+{
+    border-width: 5px;
+    min-height: 50px;
+    min-width: 150px;
+    font-size: 50px ;
+    border-style: solid;
+}
+.operadores
+{
+    border-width: 5px;
+    min-height:150px;
+    min-width: 150px;
+    font-size: 50px ;
+    border-style: solid;
+}
+
+.Padding_test
+{
+    margin:100px;
+    padding: 20px 20px 50px 100px;
+    border-style: solid;
+    border-radius: 30px;
+}
